@@ -37,3 +37,6 @@ Due to broken links, I couldn't get the raw images of the dataset. So, I had to 
 ![alt text](images/5_resized.png "resized 5 symbol")
 * The resized symbols are fed to a pretrained neural network to classify to which symbol they belong.
 * The classification results are then joined as operands and operations to be calculated at the end.
+
+## Limitations
+Because of the small dataset available (362 sample), the model sometimes predicts wrong numbers. However, I didn't consider training it on MNIST dataset as the addition and subtraction symbols would be greatly underrepresented relative to other digits.
