@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-debug = True
+debug = False
 import numpy as np
 
 def extractROI(img, min_width=0, min_height=0):

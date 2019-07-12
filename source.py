@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-debug = True
+debug = False
 # import necessary libraries
 import numpy as np
 import cv2
