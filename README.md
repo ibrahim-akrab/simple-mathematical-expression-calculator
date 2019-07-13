@@ -13,7 +13,7 @@ Now, they can overlap vertically as long as they don't touch each other.
 ## How it works
 * The image is read as grayscale and is then converted to binary using thresholding.
 ![](images/binary_image.png "binary image")
-* The bounding box *(green)* for each digit it extracted using its contour*(red)*.
+* The bounding box *(green)* for each digit it extracted using its contour *(red)*.
 ![](images/bounding_boxes.png "Bounding boxes")
 * Using the filled contour of each symbol, it is extracted as an alpha channel for that symbol. 
 ![](gifs/alpha.gif "Alpha channels")
