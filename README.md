@@ -3,7 +3,7 @@
 This is a simple system to take an image of a mathematical expression as input and evaluate it.
 
 ## supported operations
-Only addition and deletion are supported at the time due to the limitedness of the training set.
+Only addition and subtraction are supported at the time due to the limitedness of the training set.
 
 ### notes
 Due to broken links, I couldn't get the raw images of the dataset. So, I had to convert the dataset from matlab arrays to numpy arrays. Luckily enough, they are saved as `*.npy` and are loaded faster than raw data would have loaded.
